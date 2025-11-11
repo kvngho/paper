@@ -1,0 +1,44 @@
+name: Merge Thesis DOCX
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'chapters/*.md'
+      - 'refs/*.bib'
+      - 'templates/thesis-template.docx'
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc pandoc-citeproc
+
+      - name: Merge Markdown chapters to DOCX
+        run: |
+          mkdir -p docs
+          pandoc chapters/*.md \
+            --from markdown \
+            --to docx \
+            --citeproc \
+            --bibliography=refs/references.bib \
+            --csl=refs/citation-style.csl \
+            --reference-doc=templates/thesis-template.docx \
+            -o docs/thesis.docx
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: thesis-docx
+          path: docs/thesis.docx
+
+      - name: Commit and push thesis.docx
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/thesis.docx
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update thesis.docx"
+          git push

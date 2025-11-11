@@ -1,0 +1,38 @@
+name: Build per-chapter docs
+
+on:
+  push:
+    paths:
+      - 'chapters/*.md'
+      - 'refs/*.bib'
+      - 'templates/thesis-template.docx'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc pandoc-citeproc
+
+      - name: Build chapter Word files
+        run: |
+          mkdir -p build/chapters
+          for f in chapters/*.md; do
+            base=$(basename "$f" .md)
+            pandoc "$f" \
+              --from markdown \
+              --to docx \
+              --citeproc \
+              --bibliography=refs/references.bib \
+              --csl=refs/citation-style.csl \
+              --reference-doc=templates/thesis-template.docx \
+              -o build/chapters/${base}.docx
+          done
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: chapter-docs
+          path: build/chapters/
