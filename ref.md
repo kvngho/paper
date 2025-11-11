@@ -22,14 +22,17 @@
 20. Ferdaus, M. M., Niles, K. N., Tom, J., & Abdelguerfi, M. (2025). Few-Shot Learning in Video and 3D Object Detection: A Survey. *ACM Computing Surveys.* https://arxiv.org/html/2507.17079v1
 21. Jia, C., Yang, Y., Xia, Y., Chen, Y. T., Parekh, Z., Pham, H., et al. (2021). Scaling Up Visual and Vision-Language Representation Learning with Noisy Text Supervision. In *Proceedings of the International Conference on Machine Learning (ICML 2021),* 4904–4916.
 22. Yuan, L., Chen, D., Chen, Y. L., Codella, N., Dai, X., Gao, J., et al. (2021). Florence: A New Foundation Model for Computer Vision. *arXiv preprint arXiv:2111.11432.*
+23. Bansal, A., Sikka, K., Sharma, G., Chellappa, R., & Divakaran, A. (2018). Zero-Shot Object Detection. *arXiv preprint arXiv:1804.04340.*
+24. Gupta, A., Narayan, S., & Bhowmick, S. (2022). CLIP for Domain-Adaptive Zero-Shot Object Detection. *IEEE Access,* 10, 121045–121058.
+25. Vinyals, O., Blundell, C., Lillicrap, T., & Wierstra, D. (2016). Matching Networks for One-Shot Learning. In *Advances in Neural Information Processing Systems (NeurIPS 2016),* 29, 3630–3638.
+26. He, K., Zhang, X., Ren, S., & Sun, J. (2015). Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition. *IEEE Transactions on Pattern Analysis and Machine Intelligence,* 37(9), 1904–1916.
+27. Finn, C., Abbeel, P., & Levine, S. (2017). Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks. In *Proceedings of the International Conference on Machine Learning (ICML 2017),* 1126–1135.
 
 ## 추가 참고 자료
 
 - AI Hub. (2022). 공사현장 안전장비 인식 이미지 데이터셋. https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=163
 - Jung, Y. G., Park, J., Yoon, J., Peng, K.-C., Kim, W., Beng, J., & Teoh, A. (2025). TailedCore: Few-Shot Sampling for Unsupervised Long-Tail Noisy Anomaly Detection. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025).* https://openaccess.thecvf.com/content/CVPR2025/papers/Jung_TailedCore_Few-Shot_Sampling_for_Unsupervised_Long-Tail_Noisy_Anomaly_Detection_CVPR_2025_paper.pdf
-- Vinyals, O., Blundell, C., Lillicrap, T., & Wierstra, D. (2016). Matching Networks for One-Shot Learning. In *Advances in Neural Information Processing Systems (NeurIPS 2016),* 29, 3630–3638.
 - Sung, F., Yang, Y., Zhang, L., Xiang, T., Torr, P. H., & Hospedales, T. M. (2018). Learning to Compare: Relation Network for Few-Shot Learning. In *Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2018),* 1199–1208.
-- Finn, C., Abbeel, P., & Levine, S. (2017). Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks. In *Proceedings of the International Conference on Machine Learning (ICML 2017),* 1126–1135.
 - Yan, X., Chen, Z., Xu, A., Wang, X., Liang, X., & Lin, L. (2019). Meta R-CNN: Towards General Solver for Instance-Level Low-Shot Learning. In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV 2019),* 9577–9586.
 - Fan, Q., Zhuo, W., Tang, C. K., & Tai, Y. W. (2020). Few-Shot Object Detection with Attention-RPN and Multi-Relation Detector. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2020),* 4013–4022.
 - Qiao, L., Zhao, Y., Li, Z., Qiu, X., Wu, J., & Zhang, C. (2021). DeFRCN: Decoupled Faster R-CNN for Few-Shot Object Detection. In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV 2021),* 8681–8690.
