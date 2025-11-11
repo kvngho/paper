@@ -96,8 +96,6 @@ Islam, M. S., Shaqib, S. M., Ramit, S., Akter, S., Sattar, A., & Noori, S. R. H.
 
 ---
 
-원한다면 이 참고문헌을 **한양대 석사논문 양식** (예: 국내논문은 저자. (연도). 논문명. 학위논문, 학교 또는 학술지명… 형식)으로 맞춰서 변환해줄 수 있어. 그렇게 할까?
-
 [1]: https://www.frontiersin.org/journals/built-environment/articles/10.3389/fbuil.2020.00136/full?utm_source=chatgpt.com "Detection of Personal Protective Equipment (PPE ..."
 [2]: https://www.mdpi.com/2075-5309/14/8/2429?utm_source=chatgpt.com "Multi-Task Intelligent Monitoring of Construction Safety ..."
 [3]: https://link.springer.com/article/10.1007/s10462-024-10978-x?utm_source=chatgpt.com "A systematic review of computer vision-based personal ..."
@@ -109,4 +107,3 @@ Islam, M. S., Shaqib, S. M., Ramit, S., Akter, S., Sattar, A., & Noori, S. R. H.
 [9]: https://www.sciencedirect.com/science/article/abs/pii/S0926580524002784?dgcid=rss_sd_all&utm_source=chatgpt.com "Recognizing temporary construction site objects using CLIP-based ..."
 [10]: https://experts.illinois.edu/en/publications/few-shot-object-detection-and-attribute-recognition-from-construc/fingerprints/?utm_source=chatgpt.com "Few-shot object detection and attribute recognition from construction ..."
 [11]: https://arxiv.org/abs/2406.07707?utm_source=chatgpt.com "A Deep Learning Approach to Detect Complete Safety Equipment For Construction Workers Based On YOLOv7"
-
