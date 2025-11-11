@@ -8,6 +8,9 @@ on:
       - 'refs/*.bib'
       - 'templates/thesis-template.docx'
 
+permissions:
+  contents: write
+
 jobs:
   merge:
     runs-on: ubuntu-latest
