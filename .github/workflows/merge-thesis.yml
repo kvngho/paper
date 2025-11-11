@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc pandoc-citeproc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Merge Markdown chapters to DOCX
         run: |
