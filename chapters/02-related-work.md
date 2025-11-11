@@ -109,3 +109,4 @@ Islam, M. S., Shaqib, S. M., Ramit, S., Akter, S., Sattar, A., & Noori, S. R. H.
 [9]: https://www.sciencedirect.com/science/article/abs/pii/S0926580524002784?dgcid=rss_sd_all&utm_source=chatgpt.com "Recognizing temporary construction site objects using CLIP-based ..."
 [10]: https://experts.illinois.edu/en/publications/few-shot-object-detection-and-attribute-recognition-from-construc/fingerprints/?utm_source=chatgpt.com "Few-shot object detection and attribute recognition from construction ..."
 [11]: https://arxiv.org/abs/2406.07707?utm_source=chatgpt.com "A Deep Learning Approach to Detect Complete Safety Equipment For Construction Workers Based On YOLOv7"
+
